@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulaires</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Acceuil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="navbar.html">Navbar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="banner.html">Banner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="authentification_form.html">Authentification form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="footer.html">Footer</a>
+          </li>
+          <li>
+            <a class="nav-link" href="card.html">Card</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <h1>Te voici sur la page des formulaires</h1>
+  <div class="container">
+    <h2>Pour t'inscrire</h2>
+    <form>
+      <fieldset>
+        <div class="form-group">
+          <label for="User_Fistname">Prénom</label>
+          <input type="user_firstname" class="form-control" id="User_Fistname" placeholder="Prénom">
+        </div>
+        <div class="form-group">
+          <label for="User_lastname">Nom</label>
+          <input type="user_lastname" class="form-control" id="User_lastname" placeholder="Nom">
+        </div>
+        <div class="form-group">
+          <label for="Email1">Adresse Email</label>
+          <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Adresse Email">
+          <small id="emailHelp" class="form-text text-muted">Nous ne garderons pas ton email</small>
+        </div>
+        <div class="form-group">
+          <label for="Password">Mot de passe</label>
+          <input type="password" class="form-control" id="Password" placeholder="Mot de passe">
+        </div>
+        <div class="form-group">
+          <label for="Menu_Deroulant">Ton parfum de glace préféré ?</label>
+          <select class="form-control" id="Menu_Deroulant">
+            <option>Vanille</option>
+            <option>Framboise</option>
+            <option>Fruit de la passion</option>
+            <option>Citron</option>
+            <option>Mangue</option>
+            <option>Pistache</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="Description">Description</label>
+          <textarea class="form-control" id="Description" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <br/><br/><br/>
+
+  <div class="container">
+    <h2>Pour te connecter</h2>
+    <form>
+      <fieldset>
+        <div class="form-group">
+          <label for="Email1">Adresse Email</label>
+          <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Adresse Email">
+          <small id="emailHelp" class="form-text text-muted">Nous ne garderons pas ton email</small>
+        </div>
+        <div class="form-group">
+          <label for="Password">Mot de passe</label>
+          <input type="password" class="form-control" id="Password" placeholder="Mot de passe">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <br/><br><br/>
+
+  <div class="container">
+    <h2>Réinitialise ton mdp</h2>
+    <form>
+      <fieldset>
+        <div class="form-group">
+          <label for="NewPassword">Nouveau mot de passe</label>
+          <input type="password" class="form-control" id="NewPassword" placeholder="Nouveau mot de passe">
+        </div>
+        <div class="form-group">
+          <label for="CheckPassword">Rentre a nouveau le mot de passe</label>
+          <input type="password" class="form-control" id="CheckPassword" placeholder="Rentre a nouveau le mot de passe">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <br/><br><br/>
+
+  <div class="container">
+    <h2>Mot de passe oublié ?</h2>
+    <fieldset>
+      <div class="form-group">
+        <label for="Email1">Entre ton adresse Email</label>
+        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Adresse Email"> 
+      </div>
+    </fieldset>
+  </div>
+</body>
+</html>
